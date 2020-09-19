@@ -22,7 +22,10 @@
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
       "inheritEnvironments": [ "clang_cl_x64_x64" ],
-      "variables": []
+      "variables": [],
+      "enableMicrosoftCodeAnalysis": true,
+      "enableClangTidyCodeAnalysis": false,
+      "clangTidyChecks": "-fcxx-exceptions"
     },
     {
       "name": "x64-Clang-Release",
